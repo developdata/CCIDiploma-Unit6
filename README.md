@@ -1,1 +1,1 @@
-# CCIDiploma-Unit6
+# Unit6 - Creative Practice: Computational Environments
