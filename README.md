@@ -10,4 +10,4 @@ All assessment information will be on the Moodle page for the unit.
 In this unit you will be exploring care and computational environments.
 
 ## Week One: Introduction to the unit
-This weeks workshop is an introduction to the unit and to the theme of care. The Moodle page for the unit contains information about the workshop, including homework and links. The Week One folder in this repository contains a list of references for the week.
+This weeks workshop is an introduction to the unit and to the theme of care. The Moodle page for the unit contains information about the workshop, including homework and links. The [Week One folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%20One) in this repository contains a list of references for the week.
