@@ -2,6 +2,32 @@
 This folder contains the references to material mentioned in the presentations on Computational Environments and Care.
 
 ## Computational Environments
+Below are the links to the work I talk about in the introduction to the unit video.
+
+[Everything every time: Naho Matsuda](https://vimeo.com/287688470)
+
+[Interactive whirlpools: Team Labs](https://planets.teamlab.art/tokyo/)
+
+Momar Momar:  [Next realities article](https://next.reality.news/news/indie-artists-invade-moma-with-augmented-reality-reimagine-jackson-pollocks-works-0183271/), [About](http://momar.gallery/about.html) and
+[At MOMA](http://www.sndrv.nl/moma/)
+
+[Notional Field: Cuppetelli and Mendoza](https://cuppetellimendoza.com/nervous-structure-field/)
+
+[Over the air analytics](http://www.overtheairanalytics.com/)
+
+[Osmose: Char Davies](http://www.immersence.com/osmose/)
+
+[Planets: Team Labs](https://www.dezeen.com/2018/01/07/teamlab-lighting-installation-movement-whirlpools-national-gallery-victoria/ )
+
+[Supergestures: Ling Tan](https://lingql.com/supergestures/)
+
+[The Treachery of Sanctuary: Chris Milk](https://www.youtube.com/watch?v=ehjklqL6g84)
+
+[Universal Everything](https://universaleverything.com/theme/future-humans)
+
+[Virtual Reality To Control Real Robots](https://www.youtube.com/watch?v=TLOju08Jhkk)
+
+[We Live in an Ocean of Air: Marshmallow laser feast](https://vimeo.com/332218848)
 
 ## Care
 ### Agency of Autistic Children in Technology Research—A Critical Literature Review
