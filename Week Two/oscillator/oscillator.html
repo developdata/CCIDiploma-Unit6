@@ -1,0 +1,82 @@
+<!-- reference for this code https://codepen.io/gregh/pen/LxJEaj?editors=1010 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oscillator</title>
+	<meta charset="utf-8">
+
+	<style>
+
+		div{
+			margin: 5px 0px 5px 0px;
+		}
+
+		a{
+			border: 1px solid grey;
+			border-radius: 2px;
+			padding: 1px 5px 1px 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+	 	<a class="button" id="play">Play</a>
+	 </div>
+
+	 <div>
+	 	<button class = "waves" id="sine" type="button">
+			Sine
+		</button>
+		<button class = "waves" id="square" type="button">
+			Square
+		</button>
+		<button class = "waves" id="sawtooth"  type="button">
+			Sawtooth
+		</button>
+		<button class = "waves" id = "triangle" type="button">
+			Triangle
+		</button>
+	 </div>
+
+<script type="text/javascript">
+	
+	let playBtn = document.querySelector('#play');
+
+	let audioContext = new AudioContext();
+	let osc = null;
+	let wave = 'sawtooth';
+
+	playBtn.addEventListener('click', function(){
+	  
+	  if(playBtn.text == 'Play') {
+	    playBtn.text = 'Pause';
+	    osc = audioContext.createOscillator();
+		osc.frequency.value = 440;
+
+		osc.type = wave;
+		osc.start(audioContext.currentTime);
+        osc.connect(audioContext.destination);
+	  } else {
+	    playBtn.text = 'Play';
+	    osc.stop(audioContext.currentTime);
+        osc.disconnect(audioContext.destination);
+        osc = null;
+	  }
+	});
+
+	document.querySelectorAll('.waves').forEach(item => {
+	  item.addEventListener('click', event => {
+
+	    wave = item.id;
+	    osc.type = wave;
+
+
+	  });
+    })
+
+</script>
+
+</body>
+</html>
