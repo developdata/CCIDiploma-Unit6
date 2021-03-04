@@ -59,6 +59,8 @@ These are the Web Audio API references and tutotials on that I used creating the
 
 [MDN, Audio node](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode)
 
+[MDN's guide to Web Audio Codecs](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Audio_codecs)
+
 [MDN, Boombox tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API)
 
 [CSS Tricks introduction to the Web Audio API](https://css-tricks.com/introduction-web-audio-api/)
