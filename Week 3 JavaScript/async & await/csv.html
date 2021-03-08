@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Import CSV</title>
+	    <meta charset="utf-8">
+    </head>
+    <body>
+        <p>Data for Monday: </p>
+    <script type="text/javascript">
+
+        let monday = [];
+        let tuesday = [];
+        let wednesday = [];
+
+        const getData = async () => {
+            const response = await fetch(`data.csv`);
+            const data = await response.text();
+            console.log(data);
+
+            //split data on a new line and delete the first line (getting rid of the headings) 
+            const table = data.split(/\n/).slice(1);
+
+            console.log(table);
+
+            table.forEach(row => {
+                const columns = row.split(',');
+                monday.push(columns[0]);
+                tuesday.push(columns[1]);
+                wednesday.push(columns[3]);
+            });
+            console.log(monday);
+
+            //you can pass the data to another function, so it can be used 
+            //outside the async function
+            printMonday(monday);
+        }
+
+        getData();
+
+        console.log('outside and after the get data async await');
+
+        function printMonday(data){
+                document.querySelector('p').innerHTML += data;
+        }
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>async / await</title>
+	    <meta charset="utf-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            //First example without await
+            async function hello() { return "Hello" };
+            
+            hello();
+            console.log(hello());
+            hello().then((value) => console.log(value))
+
+             //Second example with await
+            // async function hello() {
+            //     return greeting = await Promise.resolve("Hello");
+            // };
+
+            // hello().then(console.log);
+
+        </script>
+    </body>
+</html>
