@@ -8,19 +8,20 @@
 
     <script type="text/javascript">
 
-        const getData = async () => {
-            const response = await fetch(` http://api.worldbank.org/V2/country?adminregion=SSA&format=json`);
+        const getData = async() =>{
+            const response = await fetch('http://api.worldbank.org/v2/country?adminregion=SSA&format=json');
             const data = await response.json();
-            //Work out how to get to the data I want
-            console.log(data)
-            //It looks like there is an array with 2 elements, the
-            //first element is an object with information about the data
-            //the sencond is an array of objects that are holding the data
-            console.log(data[1][1].id);
 
-            for (var i = 0; i < data.length; i++){
-                console.log(data[0]);
-            }
+            console.log(data[1][1].capitalCity);
+
+            let countryInfo = data[1];
+
+            countryInfo.forEach(item =>{
+                console.log(item.capitalCity);
+            })
+
+
+            
         }
 
         getData();
