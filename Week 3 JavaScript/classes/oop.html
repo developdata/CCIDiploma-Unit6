@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>classes and objects</title>
+	    <meta charset="utf-8">
+    </head>
+    <body>
+
+    <script type="text/javascript">
+
+        class Polygon {
+            constructor(height, width, colour) {
+                this.name = 'Polygon';
+                this.height = height;
+                this.width = width;
+                this.colour = colour;
+            }
+
+            changeColour(newColour){
+                this.colour = newColour;
+            }
+
+            // getColour(){
+            //     return this.colour;
+            // }
+        }
+
+        class Square extends Polygon {
+            constructor(length, width, colour) {
+                super(length, width, colour);
+                this.name = 'Square';
+            }
+        }
+
+        let poly1 = new Polygon(3, 4, 'red');
+        let poly2 = new Polygon(6, 8, 'green');
+
+        console.log('poly1 has a height of: ' + poly1.height);
+        console.log('poly2 has a height of: ' + poly2.height);
+
+        let square = new Square(5,5, 'orange');
+
+        console.log(square.name);
+        console.log(poly1.name);
+
+        console.log(square.colour);
+
+        square.changeColour('blue');
+
+        console.log(square.colour);
+
+
+    
+
+
+
+    </script>
+    </body>
+</html>

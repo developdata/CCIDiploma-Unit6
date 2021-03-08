@@ -11,4 +11,4 @@ function addDiscount(price){
     return price - discount;
 }
 
-export { couponCodes, printDiscountPrice, addDiscount};
+export { couponCodes, printDiscountPrice};
