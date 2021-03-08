@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Import csv</title>
+	    <meta charset="utf-8">
+    </head>
+    <body>
+
+    <script type="module">
+    //   import {couponCodes} from './testModule.js';
+    //   console.log(couponCodes);
+
+    import * as Module from './testModule.js';
+
+    console.log(Module.couponCodes);
+    let theDiscount = Module.addDiscount(213);
+    console.log(theDiscount);
+
+    Module.printDiscountPrice(432);
+
+    </script>
+    </body>
+</html>

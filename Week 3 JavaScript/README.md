@@ -1,4 +1,4 @@
-# Week 2 - The Web Audio API
+# Week 3 - JavaScript
 This folder contains the references and code for the JavaScript. 
 
 ## Interesting projects
