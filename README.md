@@ -9,6 +9,24 @@ All assessment information will be on the Moodle page for the unit.
 ## Care
 In this unit you will be exploring care and computational environments.
 
+## Creative
+In this section I've put links to work that you have told me about or that I have found that doesn't link to a particular week. Let me know if you find anything interesting you'd like to share and I'll add it.
+
+[Squid Soup](https://www.squidsoup.org/)
+Matt sent this link, really nice work they create interactive installations with light and sound.
+
+[Makeflix](https://www.makeflix.org/)
+I went to a workshop run by Makeflix at MozFest on creative repair. It is a creative community encouraging respect for materials, processes adn people.
+
+## Technical Tutorials
+I've added here online tutorials that I've found useful that don't relate to a particular workshop. 
+
+### Blender
+Blender is a really useful application to learn. It is a free and open source 3D software that lets you model, animate, render etc. I found it really useful making animated models that I could import into Unity with the rigging, where I could trigger individual bits of the animation.
+
+[Blender Beginner Tutorial](https://www.youtube.com/watch?v=TPrnSACiTJ4)
+This is where I started with learning blender. It's a great tutorial that goes through making a donut and a cup of coffee. I went through about half of the tutorial and it got me where I needed to be to create models for a VR project.
+
 ## Week One: Introduction to the unit
 This weeks workshop is an introduction to the unit and to the theme of care. The Moodle page for the unit contains information about the workshop, including homework and links. The [Week One folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%20One%20Introduction) in this repository contains a list of references for the week.
 
