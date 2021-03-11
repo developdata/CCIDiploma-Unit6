@@ -10,7 +10,7 @@ All assessment information will be on the Moodle page for the unit.
 In this unit you will be exploring care and computational environments.
 
 ## Creative
-In this section I've put links to work that you have told me about or that I have found that doesn't link to a particular week. Let me know if you find anything interesting you'd like to share and I'll add it.
+In this section I've put links to work that you have told me about or that I have found. Let me know if you find anything interesting you'd like to share and I'll add it.
 
 [Squid Soup](https://www.squidsoup.org/)
 Matt sent this link, really nice work they create interactive installations with light and sound.

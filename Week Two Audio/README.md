@@ -15,6 +15,8 @@ You don't need to restart the server when you make changes to a page, just refre
 ## Audio in Art
 These are the examples of artists work that I showed during the workshop, as well as the reference material I used for that part of the presentation.
 
+[Bloom by Squid Soup](https://www.squidsoup.org/)
+
 [Sonic Scope](https://www.sonicscope.org/)
 
 [W3C Workshop on Web Games Presentation: Adaptive Accessibility](http://matatk.agrip.org.uk/talks/2019/web-games/#slide-1)
