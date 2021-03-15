@@ -1,4 +1,4 @@
-# Week 3 - ML5.js
+# Week 4 - ML5.js
 This folder contains the references and code for the JavaScript. 
 
 ## Interesting projects
@@ -10,11 +10,18 @@ These are links to interesting projects
 
 [ml5.js](https://ml5js.org/)
 
-[ML5 Beginners Guide](https://thecodingtrain.com/learning/ml5/index.html) by Dan Shiffman on the coding train
+[ML5 Beginners Guide](https://thecodingtrain.com/learning/ml5/index.html) by Dan Shiffman on the coding train. His first video is a good inroduciton. I did Pose Estimation with PoseNet #7.1, then Train Your Own Neural Network #6.1 which gave me a good background on how both worked. Going through all the videos in sections 6 and 7 will give you a lot of tools for using machine learning in your work. But have a look through the videos and see what interests you.
 
 [TensorFlow](https://www.tensorflow.org/);
 
 ### Machine Learning API's
+[IBM's Watson](https://cloud.ibm.com/apidocs/machine-learning?code=JavaScript)
+
+[Google ML Kit API](https://developers.google.com/ml-kit/)
+
+[Microsoft's Azure Machine Learning](https://azure.microsoft.com/en-gb/services/cognitive-services/#customer-stories), [more on the API](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/data-cloud/azure-cognitive-services/introduction)
+
+[AWS Machine learning](https://aws.amazon.com/machine-learning/) 
 
 ### A-Frame VR
 A-Frame is a library built on top of three.js to make Web VR and AR.

@@ -41,4 +41,4 @@ The aim of this workshop is to go through some of the more advanced JavaScript c
  ## Week Four: ML5.js
  The aim of this workshop is to get you comfortable using machine learning in a web based project using ML5.js. By the end of the workshop you should have built some example projects that can be used as a reference if you use ML5.js in your projects.
 
- You can find the references and code for the workshop in teh [Week 4 folder]
+ You can find the references and code for the workshop in teh [Week 4 folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%204%20ml5.js)
