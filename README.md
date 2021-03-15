@@ -37,3 +37,8 @@ The aim of this workshop is to gain a better understanding of the audio capabili
 The aim of this workshop is to go through some of the more advanced JavaScript concepts and how JavaScript works. These will be callbacks, promises, async/await, modules and classes. I will alos go through API's. This should help you get a better understanding of how JavaScript works and should help when you are writing your own code and looking at other peoples. By the end of the workshop you should be able to use async/await to input a file, create and implement a module and a class, and use an API to get data from an external source.
 
  You can find the references and code for the workshop in the [Week 3 folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%203%20JavaScript)
+
+ ## Week Four: ML5.js
+ The aim of this workshop is to get you comfortable using machine learning in a web based project using ML5.js. By the end of the workshop you should have built some example projects that can be used as a reference if you use ML5.js in your projects.
+
+ You can find the references and code for the workshop in teh [Week 4 folder]

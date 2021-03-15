@@ -6,7 +6,6 @@ These are links to interesting projects
 
 [Sonic Scope](https://www.sonicscope.org/)
 
-
 ## References
 These are the Web Audio API references and tutotials on that I used creating the workshop.
 

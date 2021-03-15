@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/addons/p5.sound.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.2/dist/ml5.min.js"></script>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+        <title>objects</title>
+    </head>
+
+    <body>
+        <p></p>
+        <button id="C">C</button>
+        <button id="D">D</button>
+        <button id="E">E</button>
+        <button id="F">F</button>
+        <script>
+
+            //notes from the neuralNetwork code added F as an array of F and F#
+            let notes = {
+                C: 261.6256,
+                D: 293.6648,
+                E: 329.6276,
+                F: [349.2282,369.9944]
+            };
+
+            console.log(notes.C);
+            console.log(notes.F);
+            console.log(notes['D']);
+
+            let text = document.querySelector('p');
+
+            text.innerHTML = notes.C;
+
+            document.querySelectorAll('button').forEach(item => {
+                item.addEventListener('click', event => {
+                    console.log(item);
+                    console.log(item.id);
+                    text.innerHTML = notes[item.id];
+                });
+            });
+
+        </script>
+    </body>
+
+</html>

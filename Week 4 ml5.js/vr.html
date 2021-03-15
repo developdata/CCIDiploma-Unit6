@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>posenet</title>
+        <!-- p5 -->
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.3.0/lib/p5.js"></script>
+        <!-- ml5 -->
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <!-- a-frame -->
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-box id="box" rotation="0 45 0" color="#4CC3D9"></a-box>
+            <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+            <a-sky color="#ECECEC"></a-sky>
+          </a-scene>
+
+        <script>
+            let box = document.getElementById('box');
+
+            let video
+            let pose;
+
+            //The x y and z position for the box
+            let x = -1;
+            let y = 1;
+            let z = -3;
+
+            let currentX = 0;
+            let lastX = 0;
+            let differenceX = 0;
+
+            let currentY = 0;
+            let lastY = 0;
+            let differenceY = 0;
+
+            let start = false;
+
+            box.setAttribute("position", {x:x,y:y,z:z}); 
+
+            function setup() {
+                //you don't need a canvas, A-Frame will create one
+                video = createCapture(VIDEO);
+                video.hide();
+                let poseNet = ml5.poseNet(video, modelLoaded);
+                poseNet.on('pose', gotPoses);
+            }
+
+            function gotPoses(poses){
+                if(poses.length > 0){
+                    console.log('in gotPoses')
+                    pose = poses[0].pose;
+                    // console.log(pose.nose);
+
+                    currentX = pose.nose.x.toFixed();
+                    currentY = pose.nose.y.toFixed();
+
+                    if(!start){
+                        lastX = currentX;
+                        lastY = currentY;
+                        start = true;
+                    } else {
+                        differenceX = currentX - lastX;
+                        differenceY = currentY - lastY;
+                        
+                        if(differenceX > 2 || differenceX < -2){
+                            x = x - differenceX/10;
+                        }
+
+                        if(differenceY > 2 || differenceY < -2){
+                            y = y - differenceY/50;
+                        }
+                        
+                        lastX = currentX;
+                        lastY = currentY;
+
+                        box.setAttribute("position", {x:x,y:y,z:z}); 
+                    }
+                }
+            }
+
+            function modelLoaded(){
+                console.log('posenet is installed');
+            }
+
+        </script>
+    </body>
+</html>
+    
