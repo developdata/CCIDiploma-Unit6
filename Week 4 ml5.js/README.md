@@ -14,6 +14,10 @@ These are links to interesting projects
 
 [TensorFlow](https://www.tensorflow.org/);
 
+[PoseNet pose estimation](https://www.geeksforgeeks.org/posenet-pose-estimation/). This article has the background to how it works, and goes through intergrating it into a python project.
+
+[10 Machine learning libraries](https://dzone.com/articles/progressive-tools10-best-frameworks-and-libraries)
+
 ### Machine Learning API's
 [IBM's Watson](https://cloud.ibm.com/apidocs/machine-learning?code=JavaScript)
 
@@ -29,3 +33,5 @@ A-Frame is a library built on top of three.js to make Web VR and AR.
 
 ### Objects
 [3 Ways To Access Object Properties in JavaScript](https://dmitripavlutin.com/access-object-properties-javascript/)
+
+[Objects in JavaScript](https://www.geeksforgeeks.org/objects-in-javascript/)

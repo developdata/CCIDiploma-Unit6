@@ -18,6 +18,16 @@ Matt sent this link, really nice work they create interactive installations with
 [Makeflix](https://www.makeflix.org/)
 I went to a workshop run by Makeflix at MozFest on creative repair. It is a creative community encouraging respect for materials, processes adn people.
 
+[gather town](https://gather.town/i/r6ExxTtM) I'm not sure if I should add it to this section, someone told me about this last week and I thought it was interesting to have a platform where you could talk together and decide where you want to be.
+
+[Responsible Sensing Lab](https://www.ams-institute.org/urban-challenges/urban-data-intelligence/responsible-sensing-lab/)
+
+## Extra Code
+There's a folder called extra code where I've added code that doens't fit into a particular week. 
+
+[Wellcome Trust API](https://developers.wellcomecollection.org/)
+I saw this at Mozfest, you can access all the images in the Wellcome Trust library. They are mainly medical. In the extra code folder I've made an html file that uses the API to bring in images. You can filter by type and colour, you can see it in the requets string. They have a good gitHub page with links to python and JavaScript code. [Link to github page](https://github.com/wellcomecollection/mozfest)
+
 ## Technical Tutorials
 I've added here online tutorials that I've found useful that don't relate to a particular workshop. 
 
@@ -26,6 +36,12 @@ Blender is a really useful application to learn. It is a free and open source 3D
 
 [Blender Beginner Tutorial](https://www.youtube.com/watch?v=TPrnSACiTJ4)
 This is where I started with learning blender. It's a great tutorial that goes through making a donut and a cup of coffee. I went through about half of the tutorial and it got me where I needed to be to create models for a VR project.
+
+[Creating a low poly tree in Blender](https://www.youtube.com/watch?v=wB0VgyN8tOw)
+
+[Going from Blender to Unity](https://www.youtube.com/watch?v=B31fb5efsM4&list=PLA6Gf0nq2Gh4AVFeqUL7xUfoxASM6izh5) This is a great playlist and one that helped me a lot. You build a bear in Blender, then rig and animate it. The animation is exported with the bear so you can bring it into Unity and play the animations individualy.
+
+[Animating the rig in blender](https://www.youtube.com/watch?v=weMes839wlc)
 
 ## Week One: Introduction to the unit
 This weeks workshop is an introduction to the unit and to the theme of care. The Moodle page for the unit contains information about the workshop, including homework and links. The [Week One folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%20One%20Introduction) in this repository contains a list of references for the week.
@@ -41,4 +57,4 @@ The aim of this workshop is to go through some of the more advanced JavaScript c
  ## Week Four: ML5.js
  The aim of this workshop is to get you comfortable using machine learning in a web based project using ML5.js. By the end of the workshop you should have built some example projects that can be used as a reference if you use ML5.js in your projects.
 
- You can find the references and code for the workshop in teh [Week 4 folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%204%20ml5.js)
+ You can find the references and code for the workshop in the [Week 4 folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%204%20ml5.js)
