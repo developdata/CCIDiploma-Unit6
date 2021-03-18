@@ -18,7 +18,7 @@ Matt sent this link, really nice work they create interactive installations with
 [Makeflix](https://www.makeflix.org/)
 I went to a workshop run by Makeflix at MozFest on creative repair. It is a creative community encouraging respect for materials, processes adn people.
 
-[gather town](https://gather.town/i/r6ExxTtM) I'm not sure if I should add it to this section, someone told me about this last week and I thought it was interesting to have a platform where you could talk together and decide where you want to be.
+[gather town](https://gather.town) I'm not sure if I should add it to this section, someone told me about this last week and I thought it was interesting to have a platform where you could talk together and decide where you want to be.
 
 [Responsible Sensing Lab](https://www.ams-institute.org/urban-challenges/urban-data-intelligence/responsible-sensing-lab/)
 
