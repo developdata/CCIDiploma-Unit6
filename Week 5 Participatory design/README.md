@@ -27,6 +27,8 @@ Design Things and Design Thinking: Contemporary Participatory Design Challenges 
 
 [Trust is the new empathy](https://qz.com/1205045/trust-is-the-new-empathy/)
 
+[gameChange](https://gamechangevr.com/)
+
 ## Analysis
 
 [Claire Petitmengin: "Micro-Phenomenology"](https://www.youtube.com/watch?v=YFU9YVuNXQg) A good description of the foundations of micro phenomenology and carrying out the research
