@@ -20,6 +20,8 @@ I went to an [Urban Data Talks Meetup](https://www.meetup.com/urban-data-talks/)
 [Squid Soup](https://www.squidsoup.org/)
 Matt sent this link, really nice work they create interactive installations with light and sound.
 
+Matt also sent a link to [Cinimod Studio, and innovation design studio in London](https://www.cinimodstudio.com/). Their showreel is worth a look. Really nice interactive work using within environments.
+
 [Makeflix](https://www.makeflix.org/)
 I went to a workshop run by Makeflix at MozFest on creative repair. It is a creative community encouraging respect for materials, processes adn people.
 
