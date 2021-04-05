@@ -12,6 +12,9 @@ In this unit you will be exploring care and computational environments.
 ## Creative
 In this section I've put links to work that you have told me about or that I have found. Let me know if you find anything interesting you'd like to share and I'll add it.
 
+I went to an [Urban Data Talks Meetup](https://www.meetup.com/urban-data-talks/) which had three interesting talks on projects that used data. I found Claire Fram's talk on an Arup project which uses agent based modelling really intersting. She's has a blog post about it called [Net zero and agent based modelling](https://medium.com/arupcitymodelling/net-zero-and-agent-based-modelling-7ee090f42a4d)
+ which is worth a read. 
+ 
 [Squid Soup](https://www.squidsoup.org/)
 Matt sent this link, really nice work they create interactive installations with light and sound.
 
