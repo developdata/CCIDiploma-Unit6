@@ -14,7 +14,9 @@ In this section I've put links to work that you have told me about or that I hav
 
 I went to an [Urban Data Talks Meetup](https://www.meetup.com/urban-data-talks/) which had three interesting talks on projects that used data. I found Claire Fram's talk on an Arup project which uses agent based modelling really intersting. She's has a blog post about it called [Net zero and agent based modelling](https://medium.com/arupcitymodelling/net-zero-and-agent-based-modelling-7ee090f42a4d)
  which is worth a read. 
- 
+
+ A friend told me about the [project art works](https://projectartworks.org/) a collective of neurodiverse artitsts and actavists. She'd been to one of their workshops and on their site they say: "Our programmes evolve through creative practice and radiate out to awareness raising in the cultural and care sectors, promoting more diverse representation in programming and relevancy for audiences." I thought the link to care is interesting.
+
 [Squid Soup](https://www.squidsoup.org/)
 Matt sent this link, really nice work they create interactive installations with light and sound.
 
@@ -45,6 +47,14 @@ This is where I started with learning blender. It's a great tutorial that goes t
 [Going from Blender to Unity](https://www.youtube.com/watch?v=B31fb5efsM4&list=PLA6Gf0nq2Gh4AVFeqUL7xUfoxASM6izh5) This is a great playlist and one that helped me a lot. You build a bear in Blender, then rig and animate it. The animation is exported with the bear so you can bring it into Unity and play the animations individualy.
 
 [Animating the rig in blender](https://www.youtube.com/watch?v=weMes839wlc)
+
+### Unity
+I'll be using Unity again to make some content for research I'm doing, so I've been doing some tutorials to get back into it, and have found some nice ones online.
+
+This is a good introduction to [creating particles with the visual effects graph](https://www.youtube.com/watch?v=TwWL5IY4Lqs), it leads up to this tutorial where you can [manipulate the particles in VR](https://www.youtube.com/watch?v=EyMF2Wo1awo). I haven't tried the last one yet, but it looks good.
+
+### Web
+This is an interesting list of ways to [genratate SVG's](https://www.smashingmagazine.com/2021/03/svg-generators/?ref=sidebar)
 
 ## Week One: Introduction to the unit
 This weeks workshop is an introduction to the unit and to the theme of care. The Moodle page for the unit contains information about the workshop, including homework and links. The [Week One folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%20One%20Introduction) in this repository contains a list of references for the week.
