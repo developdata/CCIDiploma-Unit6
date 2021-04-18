@@ -47,11 +47,10 @@ canvas {
             connectButton.mousePressed(connectAndStartNotify);
         }
 
+        function draw() {
             noStroke();
-            
+            // fill(color(100, 200, 200));
             rect(15, 40, 60, 60);
-            console.log(squareColours.humidity + squareColours.temperature);
-
             if(squareColours.humidity + squareColours.temperature < 54){
                 fill(color(100, 200, 200));
             } else {
