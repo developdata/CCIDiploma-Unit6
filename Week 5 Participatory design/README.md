@@ -18,6 +18,9 @@ John Zeratsky, Brad Kowitz](https://www.goodreads.com/book/show/25814544-sprint)
 
 [Open innovation toolkit](https://toolkit.mozilla.org/method/participatory-designco-design-worksession/) 
 
+## Events
+[The Research Thing Meetup](https://www.meetup.com/researchthing/) run really good events where people talk about the user research.
+
 ## Participatory and Co-Design
 Design Things and Design Thinking: Contemporary Participatory Design Challenges by [Erling Björgvinsson, Pelle Ehn, Per-Anders Hillgren](https://doi.org/10.1162/DESI_a_00165)
 

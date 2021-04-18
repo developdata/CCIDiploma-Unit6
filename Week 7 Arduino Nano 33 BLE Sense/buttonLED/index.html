@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <meta charset="utf-8" />
+    <style>
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+    </style>
+
+  </head>
+  <body>
+    <div id="p5Canvas"></div>
+    <!-- <script src="sketch.js"></script> -->
+    <script>
+        const serviceUuid = "19b10010-e8f2-537e-4f6c-d104768a1214";
+        const characteristicsUUID = {
+            led:"19b10011-e8f2-537e-4f6c-d104768a1214",
+            button:"19b10012-e8f2-537e-4f6c-d104768a1214"
+        }
+
+        let buttonCharacteristic;
+        let ledCharacteristic;
+        let myBLE;
+
+        let buttonValue = 0;
+
+        function setup() {
+            let canvas = createCanvas(400,400);
+    canvas.parent('p5Canvas');
+            myBLE = new p5ble();
+            createCanvas(600, 400);
+            background("#FFF");
+            const connectButton = createButton('Connect and Start Notifications')
+            connectButton.mousePressed(connectAndStartNotify);
+            const toggleButton = createButton('Toggle');
+            toggleButton.position(15, 15);
+            toggleButton.mousePressed(toggleLED);
+        }
+
+        function draw() {
+            noStroke();
+            if(buttonValue>0){
+                fill(color(200, 200, 200));
+            }else{
+                fill(color(100, 200, 200));
+            }
+            rect(15, 40, 60, 60);
+        }
+
+        function connectAndStartNotify() {
+            myBLE.connect(serviceUuid, gotCharacteristics);
+        }
+        function gotCharacteristics(error, characteristics) {
+
+            if (error) console.log('error: ', error);
+                console.log(characteristics[1].uuid);
+                for(let i = 0; i < characteristics.length;i++){
+                if(characteristics[i].uuid == characteristicsUUID.button){
+                    buttonCharacteristic = characteristics[i];
+                    myBLE.startNotifications(buttonCharacteristic, handleButton);
+                }else if(characteristics[i].uuid == characteristicsUUID.led){
+                    ledCharacteristic = characteristics[i];
+                }else{
+                    console.log("nothing");
+                }
+            }
+        }
+
+        function handleButton(data) {
+            console.log('Button: ', data);
+            buttonValue = Number(data);
+        }
+        function toggleLED(){
+            myBLE.read(ledCharacteristic, handleLED);
+        }
+        function handleLED(error, data){
+            if (error) console.log('error: ', error);
+            console.log('LED: ', data);
+            myBLE.write(ledCharacteristic, !data);
+        }
+    </script>
+  </body>
+</html>
