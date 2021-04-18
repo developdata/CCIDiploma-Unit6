@@ -15,5 +15,20 @@ Once you have gone through the video and have my example working, look at this o
 I have put my code for this in the buttonLED folder.
 
 ## Resources
+I recommend reading through the first two links before getting started. They are a good backgroun on how it works and how to install the board and libraries.
+
 [ArduinoBLE library](https://www.arduino.cc/en/Reference/ArduinoBLE)
 
+[Getting started with Arduino Nano 33 BLE and BLE sense](https://dumblebots.com/2020/03/27/getting-started-with-arduino-nano-33-ble-and-ble-sense/) This is a good resource for setting up the Arduino, it goes through how to install the board and the libraries.
+
+[This is the UUID generator](https://www.uuidgenerator.net/) you can use it to create unique id's for the service and characteristics.
+
+[This page from the Arduino store](https://store.arduino.cc/arduino-nano-33-ble-sense-with-headers?queryID=undefined) has the specifications for the nano.
+
+[Lab: Bluetooth LE and p5.ble](https://itp.nyu.edu/physcomp/syllabus/) This is a nice introduction to BLE and p5.ble.
+
+[Information about tinyML](https://www.tinyml.org/)
+
+[Get started with machine learning on Arduino](https://blog.arduino.cc/2019/10/15/get-started-with-machine-learning-on-arduino/)
+
+[Fruit identification using Arduino and TensorFlow](https://blog.arduino.cc/2019/11/07/fruit-identification-using-arduino-and-tensorflow/)
