@@ -73,3 +73,12 @@ The aim of this workshop is to go through some of the more advanced JavaScript c
  The aim of this workshop is to get you comfortable using machine learning in a web based project using ML5.js. By the end of the workshop you should have built some example projects that can be used as a reference if you use ML5.js in your projects.
 
  You can find the references and code for the workshop in the [Week 4 folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%204%20ml5.js)
+
+ ## Week Five: Participatory Design
+ This weeks workshop is a bit different as you will be sharing your work with each other. There is also a video to watch that introduces particpatory design. In the [week five folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%205%20Participatory%20design) you can find links for participatory design resources.
+
+  ## Week Six: Participatory Design
+  This week will be a practical workshop where you will be facilitating and taking part in a particpatory design workshop. Useful resources to help you design a workshop can be found in the [week five folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%205%20Participatory%20design).
+
+  ## Week Seven: Arduino Nano 33 BLE Sense
+  The aim of this workshop is to understand the capabilities of the Arduino Nano 33 Ble Sense and to become comfortable with setting it up and sending data to and from a web page. Links to resources and code are in the [Week 7 folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%207%20Arduino%20Nano%2033%20BLE%20Sense)
