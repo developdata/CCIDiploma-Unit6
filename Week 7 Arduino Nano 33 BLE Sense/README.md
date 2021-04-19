@@ -1,6 +1,8 @@
 # Week 7 - Arduino Nano 33 BLE Sense
 This weeks workshop is an introduction to the Arduino Nano 33 BLE sense and how to pass data to and from a web page with p5.ble.js. I've put the code I go through in the video in this folder, along with a list of resources I used when making the videos.
 
+As the Web Bluetooth API is still in the experimental phase, it does not work on all browsers. You can use it with Chome versons 56 and above, Edge versions 79 and above. To see a full list of avaialbe browsers have a look at [caniuse.com](https://caniuse.com/?search=web%20bluetooth). It doesn't work with Firefox.
+
 This nano has the ability to send and recieve data using Bluetooth Low Energy (BLE) and Bluetooth. You can also use it to run machine learning models, using TensorFlow™ Lite. It has a number of sensors built into the board:
 * 9 axis inertial sensor
 * humidity, and temperature sensor

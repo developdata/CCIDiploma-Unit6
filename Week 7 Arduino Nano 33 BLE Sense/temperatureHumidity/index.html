@@ -2,88 +2,89 @@
 <html lang="en">
   <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
     <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <meta charset="utf-8" />
     <style>
-html, body {
-  margin: 0;
-  padding: 0;
-}
-canvas {
-  display: block;
-}
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        display: block;
+      }
     </style>
 
   </head>
   <body>
     <div id="p5Canvas"></div>
-    <!-- <script src="sketch.js"></script> -->
+    
     <script>
-        
+
         const serviceUuid = "19b10010-e8f2-537e-4f6c-d104768a1214";
         const characteristicsUUID = {
             humid: "19b10011-e8f2-537e-4f6c-d104768a1214",
             temperature: "19b10012-e8f2-537e-4f6c-d104768a1214"
         }
-
+        
         let myBLE;
 
-        let buttonValue = 0;
-
-        let squareColours ={
-            temperature: 0,
-            humidity: 0
+        let squareColours = {
+          temperature: 0,
+          humidity: 0
         }
-
+        
         function setup() {
-            let canvas = createCanvas(400,400);
-            canvas.parent('p5Canvas');
-            myBLE = new p5ble();
-            createCanvas(600, 400);
-            background("#FFF");
-            const connectButton = createButton('Connect and Start Notifications')
-            connectButton.mousePressed(connectAndStartNotify);
+          let canvas = createCanvas(400,400);
+          canvas.parent('p5Canvas');
+          background("#FFF");
+          myBLE = new p5ble();
+
+          const connectButton = createButton('Connect and Start Notifications');
+          connectButton.mousePressed(connectAndStartNotify);
+
         }
 
-        function draw() {
-            noStroke();
-            // fill(color(100, 200, 200));
-            rect(15, 40, 60, 60);
-            if(squareColours.humidity + squareColours.temperature < 54){
-                fill(color(100, 200, 200));
-            } else {
-                fill(color(200,0,0));
-            }
+        function draw(){
+          noStroke();
+          // fill(color(100,200,200));
+          rect(15, 40, 60, 60);
+
+          if(squareColours.humidity + squareColours.temperature < 54){
+            fill(color(100, 200, 200));
+          } else {
+            fill(color(200,0,0));
+          }
+            
         }
 
-        function connectAndStartNotify() {
-            myBLE.connect(serviceUuid, gotCharacteristics);
+        function connectAndStartNotify(){
+          myBLE.connect(serviceUuid, gotCharacteristics);
         }
 
-        function gotCharacteristics(error, characteristics) {
-            if (error) console.log('error: ', error);
+        function gotCharacteristics(error, characteristics){
+          if(error) console.log('error: ', error);
 
-            console.log('got characteristics');
+          console.log('got characteristics');
 
-            for(let i = 0; i < characteristics.length;i++){
+          for(let i = 0; i < characteristics.length;i++){
                 if(characteristics[i].uuid == characteristicsUUID.humid){
                     myBLE.startNotifications(characteristics[i], handleHumidity);
                 } else if(characteristics[i].uuid == characteristicsUUID.temperature){
                     myBLE.startNotifications(characteristics[i], handleTemerature);
                 }
             }
+
         }
 
-        function handleHumidity(data) {
-            console.log('Humidity: ' +  data + "%");
-            squareColours.humidity = data;
+        function handleHumidity(data){
+          console.log("Humidity: " + data + "%");
+          squareColours.humidity = data;
         }
 
-        function handleTemerature(data) {
-            console.log('Temperature: ' +  data + "°C");
-            squareColours.temperature = data;
+        function handleTemerature(data){
+          console.log("Temperature: " + data + "C");
+          squareColours.temperature = data;
         }
         
     </script>
