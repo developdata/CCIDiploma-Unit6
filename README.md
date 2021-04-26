@@ -82,3 +82,5 @@ The aim of this workshop is to go through some of the more advanced JavaScript c
 
   ## Week Seven: Arduino Nano 33 BLE Sense
   The aim of this workshop is to understand the capabilities of the Arduino Nano 33 Ble Sense and to become comfortable with setting it up and sending data to and from a web page. Links to resources and code are in the [Week 7 folder](https://github.com/developdata/CCIDiploma-Unit6/tree/main/Week%207%20Arduino%20Nano%2033%20BLE%20Sense)
+
+    ## Week Nine: Speculative Design
