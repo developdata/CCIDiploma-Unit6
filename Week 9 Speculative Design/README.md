@@ -1,6 +1,5 @@
 # Week Nine: Speculative Design
-
-[Link to the Thing from the Future Game](https://developdata.github.io/future/)
+I've made a video about the game [Thing from the future](http://situationlab.org/project/the-thing-from-the-future/) and created an [online version of it](https://developdata.github.io/future/). Try out the online version with a few people to start thinking about possible futures.
 
 ## Speculative Design References
 [Anab Jain – Why we need to imagine different futures](https://www.ted.com/talks/anab_jain_why_we_need_to_imagine_different_futures?language=en)
@@ -30,6 +29,8 @@
 [Tobias Revell -  Five problems with Speculative Design](https://blog.tobiasrevell.com/2019/04/five-problems-with-speculative-design.html)
 
 ## Emerging Technologies References
+
+[Gartner Identifies Five Emerging Trends That Will Drive Technology Innovation for the Next Decade](https://www.gartner.com/en/newsroom/press-releases/2020-08-18-gartner-identifies-five-emerging-trends-that-will-drive-technology-innovation-for-the-next-decade)
 
 ### DNA Data Storage
 [DNA digital data storage](https://en.wikipedia.org/wiki/DNA_digital_data_storage)
