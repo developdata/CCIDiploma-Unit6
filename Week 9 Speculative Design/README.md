@@ -28,6 +28,8 @@ I've made a video about the game [Thing from the future](http://situationlab.org
 
 [Tobias Revell -  Five problems with Speculative Design](https://blog.tobiasrevell.com/2019/04/five-problems-with-speculative-design.html)
 
+Donna Haraway discusses [Speculative Fabulation](https://duckduckgo.com/?q=sf+donna+haraway+speculitive+fabulation&t=newext&iax=videos&ia=videos&pn=1&iai=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DzFGXTQnJETg)
+
 ## Emerging Technologies References
 
 [Gartner Identifies Five Emerging Trends That Will Drive Technology Innovation for the Next Decade](https://www.gartner.com/en/newsroom/press-releases/2020-08-18-gartner-identifies-five-emerging-trends-that-will-drive-technology-innovation-for-the-next-decade)
