@@ -1,0 +1,67 @@
+<!-- based on Dan Shiffman Shape Classifier Neural Network with ml5.js Coding Challenge #158 generate dataset in p5 code -->
+<!-- https://thecodingtrain.com/CodingChallenges/158-shape-classifier.html -->
+<!-- I added in a button to export the images rather that useing frameCount as frameCount seemed to run too fast for generating and downloading the images and it didn't generate all images -->
+
+
+<!-- // Shape Classifier (Generate Dataset p5.js port)
+// Coding Challenge
+// The Coding Train / Daniel Shiffman
+// https://thecodingtrain.com/CodingChallenges/158-shape-classifier.html
+// https://youtu.be/3MqJzMvHE3E
+
+// Generate Dataset (port): https://editor.p5js.org/codingtrain/sketches/7leVIzy5l
+// Mouse: https://editor.p5js.org/codingtrain/sketches/JgLVfCS4E
+// Webcam: https://editor.p5js.org/codingtrain/sketches/2hZGBkqqq -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
+  <script src="https://unpkg.com/ml5@0.6.0/dist/ml5.min.js"></script>
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+  <script>
+    let clicked = 1;
+
+    function setup() {
+      //tried it at 64,64 and it makes a 128 image which does't train well so made it 32,32 to make a 64 x 64 image and that works well
+      createCanvas(32, 32);
+      //I added this in to generate images each time the button is pressed as it skipped images when it used frameCount
+      button = createButton('generate image');
+      button.mousePressed(greet);
+    }
+
+    function greet(){
+      console.log(clicked)
+      for (let i = 0; i < 2; i++) {
+          background(255);
+          push();
+          strokeWeight(4);
+          let r = random(4, 12);
+          let x = random(r, width - r);
+          let y = random(r, height - r);
+          stroke(random(100), random(100), random(100));
+          translate(x, y);
+            if (i == 0) {
+              circle(0, 0, r * 2);
+              //the number for each image is not generated with clicked not frameCount
+              save(`circle${nf(clicked, 4, 0)}.png`);
+            } else if (i == 1) {
+              rectMode(CENTER);
+              rotate(random(-0.1, 0.1));
+              square(0, 0, r * 2);
+              save(`square${nf(clicked, 4, 0)}.png`);
+            } 
+          pop();
+        }
+        clicked++;
+    }
+  </script>
+  
+</body>
+
+</html>
