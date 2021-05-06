@@ -9,8 +9,12 @@ I have a file for the different stages of the process.
  ## Generating Images
  The file generateImgages.html has the code for generating the squares and the circles. I changed it slightly so each image is 32 x 32, this seems to generate a 64 x 64 image, which is then used to classify and build a model.
 
+ You need to click on the generate image button to create an image of a cirlce and a square, click in 100 times if you want 200 images in total (100 squares, 100 circles).
+
  ## Generating the model
  The file generateModel.html is used to train and save the model. It loads in each image from the data folder. Put the images you generated with generateImages.html in a folder called data in your project folder.
+
+ It will automatically start training model and when it has finished produce 3 files for the model. You can add these to the model folder so they can be used with classify_images.html and classify_mouse.html.
 
  ## Using the data with drawings
  The code classify_images.html loads the trained model and uses it to give the probablity of streamed image being a circle or a square. You can draw the image on paper under a web cam and it will give you a probablity. You need to run generateModel.html first to create your model. Take the generated files and put them in a folder called model in the same folder as your main html page.
