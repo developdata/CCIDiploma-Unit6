@@ -69,68 +69,26 @@ Online shops I would recommend for buying things for circuit building or e-texti
 
  
 
-Hackspace London:
+[Hackspace London](https://london.hackspace.org.uk)
 
-https://london.hackspace.org.uk
+[South London Makerspace](http://southlondonmakerspace.org)
 
- 
+## Books
 
-South London Makerspace:
+[Fashioning Technology (the book) by Syuzi Pakhchyan](http://www.amazon.co.uk/Fashioning-Technology-Intro-Crafting-Projects/dp/0596514379/ref=sr_1_1?ie=UTF8&qid=1353689538&sr=8-1)
 
-http://southlondonmakerspace.org
+[Fashion Geek by Diana Eng](http://www.amazon.co.uk/Fashion-Geek-Clothes-Accessories-Tech/dp/1600610838/ref=sr_1_1?s=books&ie=UTF8&qid=1353689582&sr=1-1)
 
- 
+[Textile Messages by Leah Buechley](http://www.amazon.co.uk/Textile-Messages-Dispatches--Textiles-Epistemologies/dp/1433119196/ref=sr_1_1?ie=UTF8&qid=1391980449&sr=8-1&keywords=leah+buechley)
 
-Books:
+[Make: Electronics by Charles Platt](http://www.amazon.co.uk/Make-Electronics-Learning-Discovery-Through/dp/0596153740/ref=sr_1_1?ie=UTF8&qid=1391980548&sr=8-1&keywords=make+electronics)
 
-Fashioning Technology (the book) by Syuzi Pakhchyan
+[Make: Wearable and Flexible Electronics by Kate Hartman](http://www.amazon.co.uk/Make-Electronics-techniques-prototyping-interactive/dp/1449336515/ref=sr_1_1?ie=UTF8&qid=1391980579&sr=8-1&keywords=make+soft+circuits)
 
-http://www.amazon.co.uk/Fashioning-Technology-Intro-Crafting-Projects/dp/0596514379/ref=sr_1_1?ie=UTF8&qid=1353689538&sr=8-1
+[Getting Started with Arduino by Massimo Banzi](http://www.amazon.co.uk/Getting-Started-Arduino-Massimo-Banzi/dp/1449309879/ref=sr_1_1?s=books&ie=UTF8&qid=1391980603&sr=1-1&keywords=arduino+massimo)
 
- 
+[Switch Craft by Alison Lewis](https://www.amazon.co.uk/Switch-Craft-Alison-Lewis/dp/0307395448/ref=sr_1_1?s=books&ie=UTF8&qid=1461695062&sr=1-1&keywords=switch+craft)
 
-Fashion Geek by Diana Eng
+[Designing with Smart Textiles by Sarah Kettley](https://www.amazon.co.uk/Designing-Smart-Textiles-Required-Reading/dp/1472569156/ref=sr_1_1?qid=1571687463&refinements=p_27%3ASarah+Kettley&s=books&sr=1-1)
 
-http://www.amazon.co.uk/Fashion-Geek-Clothes-Accessories-Tech/dp/1600610838/ref=sr_1_1?s=books&ie=UTF8&qid=1353689582&sr=1-1
-
- 
-
-Textile Messages by Leah Buechley
-
-http://www.amazon.co.uk/Textile-Messages-Dispatches--Textiles-Epistemologies/dp/1433119196/ref=sr_1_1?ie=UTF8&qid=1391980449&sr=8-1&keywords=leah+buechley
-
- 
-
-Make: Electronics by Charles Platt:
-
-http://www.amazon.co.uk/Make-Electronics-Learning-Discovery-Through/dp/0596153740/ref=sr_1_1?ie=UTF8&qid=1391980548&sr=8-1&keywords=make+electronics
-
- 
-
-Make: Wearable and Flexible Electronics by Kate Hartman:
-
-http://www.amazon.co.uk/Make-Electronics-techniques-prototyping-interactive/dp/1449336515/ref=sr_1_1?ie=UTF8&qid=1391980579&sr=8-1&keywords=make+soft+circuits
-
- 
-
-Getting Started with Arduino by Massimo Banzi
-
-http://www.amazon.co.uk/Getting-Started-Arduino-Massimo-Banzi/dp/1449309879/ref=sr_1_1?s=books&ie=UTF8&qid=1391980603&sr=1-1&keywords=arduino+massimo
-
- 
-
-Switch Craft by Alison Lewis
-
-https://www.amazon.co.uk/Switch-Craft-Alison-Lewis/dp/0307395448/ref=sr_1_1?s=books&ie=UTF8&qid=1461695062&sr=1-1&keywords=switch+craft
-
- 
-
-Designing with Smart Textiles by Sarah Kettley:
-
-https://www.amazon.co.uk/Designing-Smart-Textiles-Required-Reading/dp/1472569156/ref=sr_1_1?qid=1571687463&refinements=p_27%3ASarah+Kettley&s=books&sr=1-1
-
- 
-
-Stitching Worlds by Ebru Kurbak:
-
-https://www.amazon.co.uk/Stitching-Worlds-Exploring-Textiles-Electronics/dp/3957634229/ref=sr_1_fkmr0_1?keywords=ebry+kurbak&qid=1571687494&s=books&sr=1-1-fkmr0
+[Stitching Worlds by Ebru Kurbak](https://www.amazon.co.uk/Stitching-Worlds-Exploring-Textiles-Electronics/dp/3957634229/ref=sr_1_fkmr0_1?keywords=ebry+kurbak&qid=1571687494&s=books&sr=1-1-fkmr0)
