@@ -8,8 +8,12 @@ This folder contains resources connected to computer vision. The [IBM website](h
 *from Building interactive spatial and temporal models using multimodal data 2009*
 [Rui Nóbrega](https://www.researchgate.net/publication/258013244_Building_interactive_spatial_and_temporal_models_using_multimodal_data)
 
+[What is computer vision](https://www.datasciencecentral.com/profiles/blogs/comparison-of-the-top-cloud-apis-for-computer-vision)
+
 ## Examples
 These are some examples of work that includes computer vision with different technologies.
+
+A lot of the work in the [The Barbican Digital Revolution Exhibition Highlights](https://www.youtube.com/watch?v=r5Hi72Dwo0E) used computer vision.
 
 This is the [Creative Machine Learning Experiments Showcase](https://medium.com/runwayml/creative-machine-learning-experiments-showcase-4cbdafa0ce42#ea31) from students on a post graduate module at NYU.
 
