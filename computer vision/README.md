@@ -56,7 +56,7 @@ With [Teachable Machine](https://teachablemachine.withgoogle.com/) you can creat
 
 [handsfree.js](https://handsfree.js.org/#installing) is a JavaScript library for pose tracking.
 
-[WebGazer.js](WebGazer.js) can be used for eye tracking, it works on Chrome browsers.
+[WebGazer](https://webgazer.cs.brown.edu/) can be used for eye tracking, it works on Chrome browsers.
 
 [OpenCV](https://opencv.org/) is an open source library for computer vision. You can use a number of programming languages with it including python and C++, most of the tutorials I found were used Python. There is a version called [OpenCV.js](https://docs.opencv.org/3.4/df/d0a/tutorial_js_intro.html) for using JavaScript.
 
