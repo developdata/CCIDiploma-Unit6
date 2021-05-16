@@ -1,0 +1,66 @@
+<!-- This code used handtrack.js and is remixed from their demo code https://github.com/victordibia/handtrack.js
+
+It detects hands (open and closed) and face, and returns a prediciton score, a lable for what its prediting, and 4 co-ordinates of the predicted object -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Handtrack.js : A library for prototyping realtime handtracking in the browser. </title>
+  <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.min.js"></script>
+  <style>
+    .wrapper{
+    position: relative;
+  }
+
+  .video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  #canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  #p5Canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .hide{
+    display:none;
+  }
+  </style>
+</head>
+
+<body class="bx--body p20">
+  <!-- <img id="img" src="hand.jpg"/>  -->
+  <div class="p20">
+    Handtrack.js allows you prototype handtracking interactions in the browser in 3 lines of code.
+  </div>
+  <div class="mb10">
+
+    <div id="updatenote" class="updatenote mt10"> loading model ..</div>
+  </div>
+  <div class = "wrapper">
+    <div id="p5Canvas"></div>
+    <!-- to see the video inputs remove the hide class from canvas -->
+    <video class="videobox canvasbox hide" autoplay="autoplay" id="myvideo"></video>
+    <canvas id="canvas" class="border canvasbox hide"></canvas>
+    
+  </div>
+
+  <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/handtrackjs@0.0.13/dist/handtrack.min.js"> </script> -->
+  <script src="lib/handtrack.min.js"> </script>
+  <script src="remixP5.js"></script>
+</body>
+
+</html>

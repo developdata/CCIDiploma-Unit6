@@ -7,6 +7,8 @@ On this page are links to resources and information from the workshop.
 
 You can view Daniel's works on the [Rarea studios website](https://rareastudio.com/), and view his dissertation [The promised land - dystopian home stories in the era of emotional capitalism ](https://rareastudio.com/pdfs/DanielAndresVeraVillalobos_Final_CHSdissertation.pdf)
 
+The book mentioned during the workshop was [Uncreative Writing: Managing Language in the Digital Age by Kenneth Goldsmith](https://www.jstor.org/stable/10.7312/gold14990).
+
 ## Assets
 Below are links to sites where you can find assets for building 3D worlds
 

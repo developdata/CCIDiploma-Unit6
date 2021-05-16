@@ -1,0 +1,34 @@
+<!-- This code used handtrack.js and is remixed from their demo code https://github.com/victordibia/handtrack.js
+
+It detects hands (open and closed) and face, and returns a prediciton score, a lable for what its prediting, and 4 co-ordinates of the predicted object -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Handtrack.js : A library for prototyping realtime handtracking in the browser. </title>
+  <link rel="stylesheet" href="https://unpkg.com/carbon-components@latest/css/carbon-components.css" />
+ 
+  <!-- <link rel="stylesheet" href="css/track.css"> -->
+</head>
+
+<body class="bx--body p20">
+  <!-- <img id="img" src="hand.jpg"/>  -->
+  <div class="p20">
+    Handtrack.js allows you prototype handtracking interactions in the browser in 3 lines of code.
+  </div>
+  <div class="mb10">
+
+    <div id="updatenote" class="updatenote mt10"> loading model ..</div>
+  </div>
+  <video class="videobox canvasbox" autoplay="autoplay" id="myvideo"></video>
+  <canvas id="canvas" class="border canvasbox"></canvas>
+  
+  <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/handtrackjs@0.0.13/dist/handtrack.min.js"> </script> -->
+  <script src="lib/handtrack.min.js"> </script>
+  <script src="fromHandtrackRemix.js"></script>
+</body>
+
+</html>
