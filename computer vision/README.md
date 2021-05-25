@@ -13,6 +13,15 @@ This folder contains resources connected to computer vision. The [IBM website](h
 ## Books
 [Image Processing and Computer Vision](https://openframeworks.cc/ofBook/chapters/image_processing_computer_vision.html)
 
+## Glitch
+You might want to use [Glitch](https://glitch.com) as an editory, particularly if your project includes a Node.js server. It is an easy way to deploy Node.js projects so they can be used across the web, not just locally. 
+
+I did some tests with a model from teachable machine, and couldn't get it wot work with the files I downloaded. When I uploaded these files to glitch the bin file was always put in the assets folder, which produced an error, as it couldn't be found when the model loaded.
+
+To work with glitch and teachable machine, you can upload your model, rather than download it in teachable machine. This means the model is stored online and teachable machine gives you a link to it.
+
+I have created a video on how I did this, which is on Moodle, and [this is the glitch project](https://glitch.com/~teachable-machine-setup)
+
 ## Examples
 These are some examples of work that includes computer vision with different technologies.
 
