@@ -1,4 +1,4 @@
-#Importing animation into A-Frame
+# Importing animation into A-Frame
 If you save a 3D model as glb or gltf, any animations you have made for it can be seen in A-Frame.
 
 To do this you need to use the animation-mixer component on the element. animation-mixer isn't part of the A-Frame library, but is in [aframe-extras](https://github.com/n5ro/aframe-extras) a library which can be added to the head of your html.
