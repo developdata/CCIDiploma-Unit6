@@ -19,5 +19,7 @@ Then you can add animation-mixer to elements on the page:
           
 <a-gltf-model src="#box" position="0 3 -3" color="#4CC3D9" animation-mixer></a-gltf-model>
 
-
 ```
+On GitHub there is some information about what you can do with [animation-mixer](https://github.com/n5ro/aframe-extras/tree/master/src/loaders)
+
+animation-mixer is mentioned in [this tutorial](https://learn.framevr.io/project2/part1)
