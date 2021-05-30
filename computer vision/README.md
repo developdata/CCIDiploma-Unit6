@@ -22,6 +22,8 @@ To work with glitch and teachable machine, you can upload your model, rather tha
 
 I have created a video on how I did this, which is on Moodle, and [this is the glitch project](https://glitch.com/~teachable-machine-setup)
 
+You also might want to use glitch to create a node.js server and use socket.io [this is a template for this](https://glitch.com/edit/#!/socket-node-basic) it has comments to explain what it happening. When working with Node.js in glitch, if you want to add new packages (in this case Express and Socket.io were added), you do this by opening the package json file, click on the add package dropdown and type the name of the package you want to install. When you find it, click on install. You should see the package name appear in the dependencies.
+
 ## Examples
 These are some examples of work that includes computer vision with different technologies.
 
